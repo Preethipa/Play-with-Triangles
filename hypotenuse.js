@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll(".leng-input");
 const calculateHypotenuseBtn = document.querySelector("#calculate-hypotenuse-btn");
-const outputTxt = document.querySelector("#output-txt");
+const outputTxt = document.querySelector("#output");
 
 function calculateSumOfSquares(a,b){
     const sumOfSquares = a*a + b*b;

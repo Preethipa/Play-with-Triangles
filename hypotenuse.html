@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Hypotenuse </title>
+
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <nav>
-        <a href="FindTriangle.html">Triangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenuse.html">Hypotenuse</a>
-        <a href="area.html">Area</a>
+        <a class="link" href="FindTriangle.html">TRIANGLE</a>
+        <a class="link" href="quiz.html">QUIZ</a>
+        <a class="link link-active"  href="hypotenuse.html">HYPOTENUSE</a>
+        <a class="link" href="area.html">AREA</a>
     </nav>
 
     <h1> Calculate Hypotenuse:</h1>
     <h3>Length of the Hypotenuse, c = sqrt ( a² + b² )</h3>
 
-    <label >a:</label>
-    <input type="number" class="leng-input">
-    <label >b:</label>
-    <input type="number" class="leng-input">
+    <div class="container">
+        <label >a:</label>
+        <input type="number" class="leng-input"> <br>
+        <label >b:</label>
+        <input type="number" class="leng-input"> <br>
 
-    <button id="calculate-hypotenuse-btn">Calculate Hypotenuse</button>
-    <div id="output-txt"></div>
+        <button id="calculate-hypotenuse-btn">Calculate Hypotenuse</button>
+        <div id="output"></div>
+    </div>
+    
 
     <script src="hypotenuse.js"></script>
 </body>
