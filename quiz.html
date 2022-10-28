@@ -6,7 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz in Triangle</title>
 
-   <link rel="stylesheet" href="Styles.css">
+ <style>
+    body{
+        background-color: #1f2937;
+        font-family: 'Prompt', sans-serif;
+    }
+    nav{
+        background-color:fuchsia;
+        padding:2rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .link{
+     color:#e5e5e5;
+        padding:0.5rem 1rem;
+        font-size: medium;
+    }
+
+    .link-active{
+        font-weight: bold;
+    }
+    
+    h1{
+        color:wheat; 
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p{
+        color:fuchsia;
+        padding:0.5rem 1rem;
+        margin-top: 2rem;
+    }
+
+    label{
+        padding: 0.5rem 1rem;
+        color:#e5e5e5;
+    }
+
+    button{
+        background:transparent;
+        border-radius: medium;
+        color:#e5e5e5;
+        background-color: fuchsia;
+        border-color: fuchsia;
+        margin-top: 1.3rem;
+        padding: 0.5rem 0.5rem;
+        border-radius: 0.5rem;
+        right: 80px;
+        font-family: 'Prompt', sans-serif;
+    }
+
+   .container{
+        margin: 0 auto;
+        width: 540px;
+   }
+
+    #output{
+        margin-top: 1.2rem;
+        color: wheat; 
+    }
+</style>
+
 </head>
 <body>
     <nav>
@@ -16,7 +78,7 @@
         <a class="link" href="area.html">AREA</a>
     </nav> 
 
-    <h1>Triangle Quiz</h1>
+    <h1>Triangle Quiz🙃</h1>
     <div class="container">
         <form class="quiz-form">
             <div class="ques-container">
@@ -45,12 +107,12 @@
                     <input class="inpt" type="radio" name="question2" value="right angled"> right angled</input>
                 </label>
             </div>
-          
+            
         </form>
-        
+
         <button id="submit-answer-btn">Submit answers</button>
         <div id ="output"></div>
-    
+
     </div>
     
     <script src="quiz.js"></script>
