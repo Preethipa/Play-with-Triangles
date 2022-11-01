@@ -12,22 +12,24 @@
         background-color: #1f2937;
         font-family: 'Prompt', sans-serif;
     }
+   
     nav{
-        background-color:fuchsia;
-        padding:2rem;
-        border-bottom-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-    }
+    background-color:fuchsia;
+    padding:2rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 
-    .link{
-     color:#e5e5e5;
-        padding:0.5rem 1rem;
-        font-size: medium;
-    }
+}
 
-    .link-active{
-        font-weight: bold;
-    }
+.link{
+    color:#e5e5e5;
+    padding:0.5rem 1rem;
+    font-size: medium;
+}
+.link-active{
+    font-weight: bold;
+}  
+
     
     h1{
         color:wheat; 
@@ -59,7 +61,7 @@
         font-family: 'Prompt', sans-serif;
     }
 
-   .container{
+   .form-container{
         margin: 0 auto;
         width: 540px;
    }
@@ -74,24 +76,14 @@
 </head>
 <body>
     <nav class="navigation container">
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/FindTriangle.html">TRIANGLE</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="/quiz.html">QUIZ</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/hypotenuse.html">HYPOTENUSE</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/area.html">AREA</a>
-            </li>
-        </ul>
+        <a class="link" href="/FindTriangle.html">TRIANGLE</a>
+        <a class="link link-active" href="/quiz.html">QUIZ</a>
+        <a class="link" href="/hypotenuse.html">HYPOTENUSE</a>
+        <a class="link" href="/area.html">AREA</a>
     </nav>
 
     <h1>Triangle Quiz:🙃</h1>
-    <div class="container">
+    <div class="form-container">
         <form class="quiz-form">
             <div class="ques-container">
     

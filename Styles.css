@@ -10,29 +10,21 @@ body{
     --primary-color:fuchsia;
 }
 
-
 nav{
     background-color:fuchsia;
     padding:2rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    
-}
-
-.navbar li{
-    display: inline-block;
 }
 
 .link{
- color:#e5e5e5;
+    color:#e5e5e5;
     padding:0.5rem 1rem;
     font-size: medium;
 }
-
 .link-active{
     font-weight: bold;
-}
-
+}  
 
 h1{
     color:wheat; 
@@ -46,7 +38,7 @@ h3{
     
 }
 
-.container{
+.content-container{
     color: var(--primary-color);
     margin: auto;
     width: 100%;
